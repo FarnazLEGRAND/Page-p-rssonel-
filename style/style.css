@@ -1,0 +1,210 @@
+
+body{
+    font-family: 'Verdana', 'Open Sans', 'sans-serif';
+    background-image: url(../image/ordie_portable_bois.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #464646;
+}
+
+
+.gallery img{
+
+    float:left;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+header{
+    
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-bottom: 4%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.5);
+    flex: 0.4;
+    
+}
+
+
+ul{
+    
+    text-align: left;
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+td a:hover{
+    color:#6A4B39;
+    transition-duration: 500ms;
+}
+
+li a:hover{
+    color:#6A4B39;
+    transition-duration: 500ms;
+}
+
+textarea{ 
+    resize: none;
+}
+
+ul li{
+    
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+section{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+    flex: 2;
+}
+
+
+#contenu{
+    display: flex;
+}
+
+section header{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    
+}
+
+article{
+    text-align: justify;
+}
+
+#article1{
+    text-align: center;
+}
+
+#article2{
+    text-align: center;
+}
+
+#article3{
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    
+}
+
+#contact{
+    padding-top: 5%;
+    text-align: center;
+}
+
+#form_contact{
+    padding-top: 5%;
+    padding-left: 35%;
+}
+
+table{
+    
+    width: 50%;
+   margin-left: 25%;
+}
+
+td{
+    padding-bottom: 4%;
+}
+
+.td_left{
+ padding-right: 20%;
+}
+
+#inom[type=text] {
+    width: 100%;
+}
+#iprenom[type=text] {
+    width: 100%;
+}
+
+#idate[type=date] {
+    width: 100%;
+}
+
+#idatenaissance[type=date] {
+    width: 100%;
+}
+
+#iheure[type=time] {
+    width: 100%;
+}
+
+#itel[type=tel] {
+    width: 98%;
+}
+
+#icolor[type=color] {
+    width: 103%;
+}
+
+#iemail[type=email] {
+    width: 98%;
+}
+
+#isubmit[type=submit] {
+    width: 100%;
+}
+
+input[type=reset] {
+    width: 103%;
+}
+
+.aline_icone{
+    text-align: center;
+
+}
+
+.fa-solid{
+   font-size: 30px;
+}
+
+.fa-brands{
+    font-size: 30px;
+}
+
+
+.Cv_icone{
+    margin-right:0%;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+._icone img{
+
+    width: 150px;
+}
+
+td ._icone img:hover{
+    width: 180px;
+    transition-duration: 1s;
+}
+
+
+section img{
+    padding-left: 10%;
+    width: 80%;
+}

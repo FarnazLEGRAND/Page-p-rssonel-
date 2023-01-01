@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="author" content="Melani Walho,Farnaz Legrand, Valerie Rasolofoarison, Dalil Kadjoudj "/>
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+</head>
+<body>
+    <div class="gallery">
+        
+        <header>
+          <img src="../icone/logo_PHP.png" alt="logo">  
+            <h1>Bienvenue sur ma page personnelle</h1>
+            <br>
+            Je suis en formation PHP et j'apprend le HTML et CSS
+        </header>
+    </div>
+    <hr>
+    <div id="contenu">
+
+        <nav>
+            <ul>
+                Menu
+                <hr>
+                <li><a href="../Index.html">Acceuil</a></li>
+                <li><a href="../page/MonCV.html">Mon CV</a></li>
+                <li><a href="../page/Mesprojets.html">Mes projets</a></li>
+                <li><a href="../page/Inscrivez_vous.html">Inscrivez-vous</a></li>
+                <li><a href="../page/Contactez_moi.html">Contactez-Moi</a></li>
+            </ul>
+        </nav>
+    <section>
+        <br>
+        <article>
+            <header>
+                Formulaire d'Inscription
+            </header>
+                 <form>
+
+                    <table id="Inscrivez_vous">
+                       <tr>
+                         <td class="td_left">
+                             <label for="nom">Nom:</label>
+                         </td>
+                         <td>
+                             <input type="text" id="inom" name="nom" placeholder="Saisir votre nom">
+                         </td>
+                       </tr>
+                       <tr>
+                         <td class="td_left">
+                             <label for="prenom">Prénom:</label>
+                         </td>
+                         <td>
+                             <input type="text" id="iprenom" name="prénom" placeholder="Saisir votre prénom">
+                         </td>
+                       </tr>
+                       <tr>
+                         <td class="td_left">
+                             <label for="sexe">Sexe:</label>
+                         </td>
+                         <td>
+                             <label for="sexe">F:</label>
+                             <input type="radio" id="ifemme" name="femme" value="">
+                             <label for="sexe">H:</label>
+                             <input type="radio" id="ifemme" name="femme" value="">
+                         </td>
+                       </tr>
+                       <tr>
+                         <td class="td_left">
+                             <label for="Date">Date de naissance:</label>
+                         </td>
+                         <td>
+                             <input type="Date" id="idatenaissance" name="datenaissance" value="">
+                         </td><br>
+                       </tr>
+                       <tr>
+                         <td class="td_left">
+                             <label for="Date">Date:</label>
+                         </td>
+                         <td>
+                             <input type="Date" id="idate" name="date">
+                         </td><br>
+                       </tr>
+                       <tr>
+                         <td class="td_left">
+                             <label for="heure">Heure:</label>
+                         </td>
+                         <td>
+                             <input type="time" id="iheure" name="heure">
+                         </td>
+                       </tr>
+                       <tr>
+                         <td class="td_left">
+                             <label for="num">Num Telephone:</label>
+                         </td>
+                         <td>
+                             <input type="tel" id="itel" name="dateheure" placeholder="saisir Num téléphone" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}">
+                         </td>
+                       </tr>
+                       <tr>
+                         <td class="td_left">
+                             <label for="email">Adresse email:</label>
+                         </td>
+                         <td>
+                             <input type="email" id="iemail" name="email" placeholder="saisir une @ email">
+                         </td>
+                       </tr>
+                       <tr>
+                         <td class="td_left">
+                             <label for="couleur">Couleur favorite</label>
+                         </td>
+                         <td>
+                             <input type="color" id="icolor" name="color">
+                         </td>
+                       </tr>
+                       <tr>
+                         <td>
+                             <input type="submit" id="submit" name="envoyer" value="envoyer">
+                         </td>
+                         <td>
+                             <input type="reset" id="reset" name="réinitialiser" value="réinitialiser">
+                         </td>
+                       </tr>
+                    </table>
+                </form>
+        </article>
+    </section>
+</body>
+</html>
